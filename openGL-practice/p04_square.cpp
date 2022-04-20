@@ -84,37 +84,37 @@ void MyDisplay()
 	//	glEnd();
 	//glPopMatrix();
 
+
 	glColor3f(1.0, 0.0, 0.0);
+
 	glPushMatrix();
-	glScalef(2.0, 1.0, 0.0);
+	glScalef(1.5, 1.0, 1.0);
 	glutSolidCube(0.5);
 	glPopMatrix();
 
 	glColor3f(0.0, 0.0, 1.0);
+
 	glPushMatrix();
-	glTranslatef(0.6, 0.0, 0.0);
+	glTranslatef(-0.6, 0, 0);
+	glutSolidCube(0.5);
+
+	glTranslatef(1.2, 0.0, 0.0);
 	glutSolidCube(0.5);
 	glPopMatrix();
-
-	glColor3f(0.0, 0.0, 1.0);
-	glPushMatrix();
-	glTranslatef(-0.6, 0.0, 0.0);
-	glutSolidCube(0.5);
-	glPopMatrix();
-
-	/*glColor3f(1.0, 1.0, 0.0);
-	glPushMatrix();
-	glTranslatef(-0.6, 0.3, 0.0);
-	glRotatef(-90, 1.0, 0.0, 0.0);
-	glutSolidCone(0.3, 0.3, 36, 10);
-	glPopMatrix();*/
 
 	glColor3f(1.0, 1.0, 0.0);
+
 	glPushMatrix();
-	glScalef(0.5, 1.0, 1.0);
-	glTranslatef(0.6, 0.3, 0.0);
 	glRotatef(-90, 1.0, 0.0, 0.0);
-	glutSolidCone(0.4, 0.3, 36, 12);
+	glScalef(2.0, 1.0, 1.0);
+	glTranslatef(-0.6, 0.5, 0.0);
+	glutSolidCone(0.1, 0.3, 36, 10);
+	glPopMatrix();
+
+	glPushMatrix();
+	glRotatef(90, 1.0, 0.0, 0.0);
+	glTranslatef(0.6, 0.5, 0.0);
+	glutSolidCone(0.1, 0.1, 36, 10);
 	glPopMatrix();
 
 	glFlush();

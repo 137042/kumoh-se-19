@@ -1,5 +1,6 @@
 ﻿  p04_square.cpp
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(95,28): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(101,29): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(115,28): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(126,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(130,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(139,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(144,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
   openGL-practice.vcxproj -> C:\Users\mare1\workspace\openGL-practice\x64\Debug\openGL-practice.exe
