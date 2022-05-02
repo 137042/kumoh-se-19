@@ -1,7 +1,5 @@
-﻿  p04_square.cpp
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(123,12): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(132,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(136,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(144,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
-C:\Users\mare1\workspace\openGL-practice\openGL-practice\p04_square.cpp(149,30): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+﻿  p01_Teapot.cpp
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p01_Teapot.cpp(21,26): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p01_Teapot.cpp(26,25): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\Users\mare1\workspace\openGL-practice\openGL-practice\p01_Teapot.cpp(27,25): warning C4305: '인수': 'double'에서 'GLfloat'(으)로 잘립니다.
   openGL-practice.vcxproj -> C:\Users\mare1\workspace\openGL-practice\x64\Debug\openGL-practice.exe

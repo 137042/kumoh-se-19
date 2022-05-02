@@ -27,6 +27,9 @@
     <ClCompile Include="p04_square.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="p05_Robot.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BunnyModel.h">

@@ -16,7 +16,7 @@ void MyDisplay()
 	//glColor3f(0, 1.0, 1.0);	 glVertex3f(-0.5, 0.5, 0.0);
 	glColor3f(1.0, 0, 0);
 	glutWireTeapot(0.5);
-	glEnd();
+	
 	glutSwapBuffers();
 }
 
