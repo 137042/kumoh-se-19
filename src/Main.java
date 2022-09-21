@@ -83,7 +83,8 @@ public class Main {
 //                    sb.append(childnodename);
 
                     if(j != childList.getLength() - 1) {
-                        sb.append(",");
+//                        sb.append(",");
+                        sb.append("=");
                     }
                 }
                 xmlList.add(childNodeMap);
@@ -98,16 +99,16 @@ public class Main {
 
     private static void writeCSV(ArrayList<String> dataList){
 
-        String nodeNames = "batchPlaceInfo,chartrInfo,clCodeDc,clNm,cntntsNo,cntntsSj,distbNm,dlthtsInfo,flwrInfo," +
-                "frtlzrInfo,grwhTpInfo,grwtInfo,grwtseVeNm,hgtmMhmrInfo,lfclChngeInfo,lightImgUrl1,lightImgUrl2," +
-                "lightImgUrl3,lighttInfo,mainImgUrl1,mainImgUrl2,manageDemandNm,manageLevelNm,orgplce,prpgtInfo," +
-                "pswntrTpInfo,rdxStleNm,scnm,stleSeNm,tipInfo,waterCycleInfo";
+        String nodeNames = "batchPlaceInfo=chartrInfo=clCodeDc=clNm=cntntsNo=cntntsSj=distbNm=dlthtsInfo=flwrInfo," +
+                "frtlzrInfo=grwhTpInfo=grwtInfo=grwtseVeNm=hgtmMhmrInfo=lfclChngeInfo=lightImgUrl1=lightImgUrl2=" +
+                "lightImgUrl3=lighttInfo=mainImgUrl1=mainImgUrl2=manageDemandNm=manageLevelNm=orgplce=prpgtInfo=" +
+                "pswntrTpInfo=rdxStleNm=scnm=stleSeNm=tipInfo=waterCycleInfo";
         dataList.add(0, nodeNames);
 
         try {
             // 추출된 csv 파일 저장할 경로(경로에 메모장써서 파일 미리 만들어두기)
 //            String filePath = "C:/Users/mare1/workspace/dry-garden.csv";
-            String filePath = "C:/Users/mare1/workspace/dry-garden.csv";
+            String filePath = "C:/Users/mare1/workspace/GardenDemo/dry-garden.csv";
             File file = new File(filePath);
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             String line = "";
@@ -115,6 +116,9 @@ public class Main {
             for (String s : dataList) {
                 line = s;
                 line = line.replace("\n", "");
+                line = line.replace("<br />", "");
+                line = line.replace("<i>", "");
+                line = line.replace("</i>", "");
 
                 bw.write(line);
                 bw.write("\n");
