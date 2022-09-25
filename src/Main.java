@@ -84,7 +84,7 @@ public class Main {
 
     private static void writeCSV(ArrayList<String> dataList){
         // csv를 "읽는" 과정이 없어서 그 파일에 있는 데이터 위를 덮어쓰므로 옮겨둔 컬럼명을 0번으로 붙여줌
-        String nodeNames = "batchPlaceInfo=chartrInfo=clCodeDc=clNm=cntntsNo=cntntsSj=distbNm=dlthtsInfo=flwrInfo," +
+        String nodeNames = "batchPlaceInfo=chartrInfo=clCodeDc=clNm=cntntsNo=cntntsSj=distbNm=dlthtsInfo=flwrInfo=" +
                 "frtlzrInfo=grwhTpInfo=grwtInfo=grwtseVeNm=hgtmMhmrInfo=lfclChngeInfo=lightImgUrl1=lightImgUrl2=" +
                 "lightImgUrl3=lighttInfo=mainImgUrl1=mainImgUrl2=manageDemandNm=manageLevelNm=orgplce=prpgtInfo=" +
                 "pswntrTpInfo=rdxStleNm=scnm=stleSeNm=tipInfo=waterCycleInfo";
