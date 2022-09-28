@@ -7,31 +7,31 @@
   <table>
     <tr align=center>
       <td>📖</td>
-      <td>database</td>
+      <td>Database</td>
       <td>2021년도 1학기</td>
       <td>데이터베이스</td>
     </tr>
     <tr align=center>
       <td>📖</td>
-      <td>ossw-linux</td>
+      <td>OSSW-linux</td>
       <td>2021년도 2학기
       <td>오픈소스소프트웨어</td>
     </tr>
     <tr align=center>
       <td>📖</td>
-      <td>db-programming</td>
+      <td>ConvProj-db</td>
       <td>2021년도 2학기</td>
       <td>융합프로젝트</td>
     </tr>
     <tr align=center>
       <td>📖</td>
-      <td>ai-practice</td>
+      <td>AI</td>
       <td>2022년도 1학기</td>
       <td>인공지능</td>
     </tr>
     <tr align=center>
       <td>📖</td>
-      <td>openGL-practice</td>
+      <td>CG-openGL</td>
       <td>2022년도 1학기
       <td>컴퓨터그래픽스</td>
     </tr>
