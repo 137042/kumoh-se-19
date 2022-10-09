@@ -16,7 +16,7 @@ public class Main {
     // 데이터 뽑아올 API 주소
     final static String APIURL= "http://api.nongsaro.go.kr/service/dryGarden/dryGardenDtl";
     // 해당 API에 적합한 API Key
-    final static String APIKEY= "20220913J9KO78RRYWNDNB6UOPWW";
+    final static String APIKEY= "Enter apiKey here";
     // 제일 첫 식물의 cntntsNo
     final static int FIRSTNO = 204774;
     // 제일 끝 식물의 cntntsNo
