@@ -41,6 +41,18 @@
       <td>2022년도 1학기
       <td>창의프로젝트</td>
     </tr>
+    <tr align=center>
+      <td>📖</td>
+      <td>GardenDemo</td>
+      <td>2022년도 2학기
+      <td>창의융합종합설계1</td>
+    </tr>
+    <tr align=center>
+      <td>📖</td>
+      <td>dl</td>
+      <td>2022년도 2학기
+      <td>딥러닝</td>
+    </tr>
   </table>
 </div>
 
